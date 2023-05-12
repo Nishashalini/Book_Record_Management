@@ -9,5 +9,6 @@ urlpatterns=[
     url(r'^add',views.add),
     url('search',views.search),
     url('edit',views.edit),
-    url('login',views.userLogout),
+    url('login',views.userLogin),
+    url('logout',views.userLogout),
 ]
